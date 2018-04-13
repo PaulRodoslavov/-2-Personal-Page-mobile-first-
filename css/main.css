@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Oswald|Tajawal');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Oswald|Raleway|Tajawal');
 
 *{
 	box-sizing: border-box;
@@ -35,35 +35,87 @@ body{
 /* Section Styles */
 .container{
 	text-align: center;
-	width:100%;
-	padding: 0 .5em;
+	width:90%;
 	margin: 0 auto;
 }
 
 /* Section Styles for Photo*/
+.photo{
+	 margin-top: 35px;
+}
 .photo img{
 	width: 65%;
+	margin-bottom: 15px;
 }
 
 /* Section Styles for card*/
 .card img {
 	width:100%;
+	margin-top: 20px;
 
 }
 /* Section Styles for Text on Page*/
+.card .text{
+	width:85%;
+	margin:15px auto 0;
+}
 .text{
 	font-family: 'Tajawal', sans-serif;
 	color: #7f7f7f;
 	font-size: 1.2em;
 	line-height: 20px;
-	margin-top:20px;
+}
+.card h2{
+	font: 20px'Raleway', sans-serif;
+	letter-spacing: 1px;
+	margin-top: 25px;
+	font-weight: bold;
+	color: #4a4a4a;
 }
 h3{
 	font-family:'Do Hyeon', sans-serif;
   	letter-spacing: 1px;
   	color: #222;
   	text-transform: uppercase;
-  	margin: 60px auto 35px;x;
+  	margin: 60px auto 35px;
 }
 
+/* Section Styles for Conatact*/
+
+.contact{
+	text-align: center
+}
+.contact span{
+	font-weight: bold;
+}
+.space {
+	margin-top:20px;
+}
+/* Styles for Footer */
+
+.foot-nav{
+	margin-top:40px;
+	border-top:1px solid #d3d3d3;
+	font-family: 'Do Hyeon', sans-serif; 
+	color: #7f7f7f;
+}
+.left-float,
+.right-float{	
+	margin: 20px 0;
+}
+.right-float{
+	float:right;	
+}
+.left-float{
+	float:left;
+
+}
+.right-float div{
+	display: none;    
+    text-transform: uppercase;
+    
+}
+.right-float .clear{
+	display: block;
+}
 /* Styles for larger screens */
