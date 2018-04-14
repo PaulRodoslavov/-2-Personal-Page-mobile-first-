@@ -12,6 +12,7 @@ body{
 		
 	background: #fafafa;
 }
+
 .title{
 	height: 3em;  
   	line-height: 3em;
@@ -20,6 +21,7 @@ body{
   	letter-spacing: 1px;
   	color: #222;
 }
+/* Section Styles for Navigation*/
 .nav-bar a{
 	text-transform: uppercase;
 	background: #fff;
@@ -29,7 +31,8 @@ body{
   	line-height: 3em;
   	font-family: 'Oswald', sans-serif;
   	letter-spacing: 1px;
-  	color: #222;
+  	color: #222;  	
+  	width: 100%;
 }
 
 /* Section Styles */
@@ -110,12 +113,39 @@ h3{
 	float:left;
 
 }
-.right-float div{
+.hiden{
 	display: none;    
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 }
-.right-float .clear{
+.right-float a{
 	display: block;
+	color: #7f7f7f;
 }
+
+
 /* Styles for larger screens */
+
+@media (min-width: 768px){
+
+	/* Section Styles for Navigation*/
+	
+	.nav-bar li{
+		float: left;	
+		margin-right: 25px;
+	}
+	.nav-bar a{		
+		background: inherit;
+	}
+	.nav-bar{
+		margin: 0 auto;
+	}
+	.clearfix{
+		display: table;
+		content: "";
+		clear: both;
+	}
+	/* Section Styles for Photo*/
+	.photo{
+		float: right;
+	}
+}
