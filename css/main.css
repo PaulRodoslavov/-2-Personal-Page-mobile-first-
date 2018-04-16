@@ -10,9 +10,12 @@ a{
 }
 body{
 		
-	background: #fafafa;
+	background: #fff;
 }
 
+header{
+	background: #fafafa;
+}
 .title{
 	height: 3em;  
   	line-height: 3em;
@@ -43,6 +46,9 @@ body{
 }
 
 /* Section Styles for Photo*/
+header{
+	padding-bottom: 50px;
+}
 .photo{
 	 margin-top: 35px;
 }
@@ -80,13 +86,18 @@ h3{
   	letter-spacing: 1px;
   	color: #222;
   	text-transform: uppercase;
-  	margin: 60px auto 35px;
+  	margin: 30px auto 35px;
 }
 
 /* Section Styles for Conatact*/
 
 .contact{
-	text-align: center
+	text-align: center;
+	margin-top: 30px;
+}
+.contact h3{
+	margin-top:0;
+	padding-top: 30px;
 }
 .contact span{
 	font-weight: bold;
@@ -95,12 +106,18 @@ h3{
 	margin-top:20px;
 }
 /* Styles for Footer */
-
+.background{
+	background: #fafafa;
+}
 .foot-nav{
 	margin-top:40px;
 	border-top:1px solid #d3d3d3;
 	font-family: 'Do Hyeon', sans-serif; 
 	color: #7f7f7f;
+	display: table;
+	clear: both;
+	content: "";
+	width: 100%;
 }
 .left-float,
 .right-float{	
@@ -133,11 +150,14 @@ h3{
 		float: left;	
 		margin-right: 25px;
 	}
+	.nav-bar li:last-child{
+	margin: 0;
+	}
 	.nav-bar a{		
 		background: inherit;
 	}
 	.nav-bar{
-		margin: 0 auto;
+		margin: 0 auto 20px;
 	}
 	.clearfix{
 		display: table;
@@ -147,5 +167,32 @@ h3{
 	/* Section Styles for Photo*/
 	.photo{
 		float: right;
+		margin: 0;
+		text-align: right;
+		width: 40%;
+	}
+	.photo img{
+		margin-bottom: 0;
+		width: 100%;
+	}
+	.txt-icon{
+		width: 55%;
+		text-align: left;
+	}
+
+	/* Section Styles for Card*/
+	.card{
+		width:48%;		
+	}
+	.flex{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+	}
+}
+@media (min-width: 1024px){
+	.card{
+		width:32%;		
 	}
 }
