@@ -191,7 +191,7 @@ header{
 		background: inherit;
 	}
 	.nav-bar{
-		margin: auto 0;
+		margin: auto;
 	}
 	.clearfix{
 		display: table;
@@ -223,7 +223,6 @@ header{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-
 	}
 	.card.skills{
 		width:70%;
@@ -244,4 +243,12 @@ header{
 	.card{
 		width:32%;		
 	}
+	.nav-bar{
+		margin: auto 0;
+	}
+	.flex-1024{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}	
 }
