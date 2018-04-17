@@ -9,21 +9,21 @@
 </head>
 <body>
 	<header>
-	<div class="container">	
-	
+	<div class="container">		
 		<div class="title">
 			<span>Paul Rodoslavov</span>
 		</div>			
 		<nav class="nav-bar clearfix">
 			<ul>
-				<li><a href="">home</a></li>
-				<li><a href="">portfolio</a></li>
-				<li><a href="">contact</a></li>
+				<li><a href="index.html">home</a></li>
+				<li><a href="#portfolio">portfolio</a></li>
+				<li><a href="#skills">skills</a></li>
+				<li><a href="#contact">contact</a></li>
 			</ul>
 		</nav>
 		<div class="clearfix">
 			<div class="photo">
-				<img src="img/responsive-layout-profile.png" alt="My photo">
+				<img src="img/paul.jpg" alt="My photo">
 			</div>
 			<div class="text txt-icon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, architecto, nostrum. Quasi molestiae vitae officiis fuga culpa nemo explicabo quas dolorum. Voluptas molestiae
 			</div>
@@ -31,7 +31,7 @@
 	</div>
 	</header>
 	<div class="container">	
-		<h3>portfolio</h3>
+		<h3 id="portfolio">portfolio</h3>
 		<div class="flex">	
 			<div class="card">
 				<img src="img/portfolio-1.png" alt="portfolio-1">
@@ -64,13 +64,21 @@
 				<h2>Calculator</h2>
 				<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic excepturi sapiente atque ipsa dicta, eaque tempore, voluptatibus</div>
 			</div>
+			<div class="container">
+				<h3 id="skills">Skills</h3>
+				<div class="card skills">
+					<img src="img/skills.png" alt="skills">
+					<h2>Skills</h2>
+					<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic excepturi sapiente atque ipsa dicta, eaque tempore, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic excepturi sapiente atque ipsa dicta, eaque tempore, voluptatibus</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
 	<div class="background">
 		<div class="container">			
 			<section class="contact">
-				<h3>contact</h3>
+				<h3 id="contact">contact</h3>
 				<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic excepturi sapiente atque</div>			
 				<div class="text space">Phone: <span> +1 (253) 670 09 05</span></div>		
 				<address class="text space">Email: <span> pasha.rodoslavov@gmail.com</span></address>			
@@ -81,9 +89,9 @@
 					</ul>
 					<ul class="right-float">
 						<li class="clear"><a href="#top">Back to Top</a></li>
-						<li class="hiden">home</li>
-						<li class="hiden">portfolio</li>
-						<li class="hiden">Contact</li>
+						<li class="hidden"><a href="index.html">home</a></li>
+						<li class="hidden"><a href="#portfolio">portfolio</a></li>
+						<li class="hidden"><a href="#contact">Contact</a></li>
 					</ul>			
 			</footer>
 			

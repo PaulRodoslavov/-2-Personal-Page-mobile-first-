@@ -15,129 +15,149 @@ body{
 
 header{
 	background: #fafafa;
+	background: linear-gradient(to right, #8eded9, #edbf4d,#3c9fbd);
 }
-.title{
-	height: 3em;  
-  	line-height: 3em;
-  	font-size: 25px;
-  	font-family: 'Do Hyeon', sans-serif;
-  	letter-spacing: 1px;
-  	color: #222;
-}
+	
 /* Section Styles for Navigation*/
-.nav-bar a{
-	text-transform: uppercase;
-	background: #fff;
-	margin-bottom: 2px;
-	display: block;
-	height: 3em;  
-  	line-height: 3em;
-  	font-family: 'Oswald', sans-serif;
-  	letter-spacing: 1px;
-  	color: #222;  	
-  	width: 100%;
-}
+	.title{
+		height: 3em;  
+		line-height: 3em;
+		font-size: 25px;
+		font-family: 'Do Hyeon', sans-serif;
+		letter-spacing: 1px;
+		color: #222;
+	}
+	
+	.nav-bar a:hover{
+			background: #675a85;
+			color: #fff;
+		}
+
+	.nav-bar a{
+		text-transform: uppercase;
+		background: #fff;
+		margin-bottom: 4px;
+		display: block;
+		height: 3em;  
+	  	line-height: 3em;
+	  	font-family: 'Oswald', sans-serif;
+	  	letter-spacing: 1px;
+	  	color: #222;  	
+	  	width: 100%;
+	}
 
 /* Section Styles */
-.container{
-	text-align: center;
-	width:90%;
-	margin: 0 auto;
-}
+
+	.container{
+		text-align: center;
+		width:90%;
+		margin: 0 auto;
+	}
 
 /* Section Styles for Photo*/
-header{
-	padding-bottom: 50px;
-}
-.photo{
-	 margin-top: 35px;
-}
-.photo img{
-	width: 65%;
-	margin-bottom: 15px;
-}
+
+	header{
+		padding-bottom: 50px;
+	}
+	.photo{
+		 margin-top: 35px;
+	}
+	.photo img{
+		width: 65%;
+		margin-bottom: 15px;
+	}
 
 /* Section Styles for card*/
-.card img {
-	width:100%;
-	margin-top: 20px;
 
-}
+	.card img {
+		width:100%;
+		margin-top: 40px;
+
+	}
 /* Section Styles for Text on Page*/
-.card .text{
-	width:85%;
-	margin:15px auto 0;
+
+	.card .text{
+		width:85%;
+		margin:15px auto 0;
+	}
+	.text.txt-icon{
+		color:#675a85;
+	}
+	.text{
+		font-family: 'Tajawal', sans-serif;
+		color: #7f7f7f;
+		font-size: 1.2em;
+		line-height: 30px;
 }
-.text{
-	font-family: 'Tajawal', sans-serif;
-	color: #7f7f7f;
-	font-size: 1.2em;
-	line-height: 20px;
-}
-.card h2{
-	font: 20px'Raleway', sans-serif;
-	letter-spacing: 1px;
-	margin-top: 25px;
-	font-weight: bold;
-	color: #4a4a4a;
-}
-h3{
-	font-family:'Do Hyeon', sans-serif;
-  	letter-spacing: 1px;
-  	color: #222;
-  	text-transform: uppercase;
-  	margin: 30px auto 35px;
-}
+	.card h2{
+		font: 20px'Raleway', sans-serif;
+		letter-spacing: 1px;
+		margin-top: 25px;
+		font-weight: bold;
+		color: #4a4a4a;
+	}
+	h3{
+		font-family:'Do Hyeon', sans-serif;
+	  	letter-spacing: 1px;
+	  	color: #222;
+	  	text-transform: uppercase;
+	  	margin: 30px auto 35px;
+	  	font-size: 1.5em;
+	}
 
 /* Section Styles for Conatact*/
 
-.contact{
-	text-align: center;
-	margin-top: 30px;
-}
-.contact h3{
-	margin-top:0;
-	padding-top: 30px;
-}
-.contact span{
-	font-weight: bold;
-}
-.space {
-	margin-top:20px;
-}
-/* Styles for Footer */
-.background{
-	background: #fafafa;
-}
-.foot-nav{
-	margin-top:40px;
-	border-top:1px solid #d3d3d3;
-	font-family: 'Do Hyeon', sans-serif; 
-	color: #7f7f7f;
-	display: table;
-	clear: both;
-	content: "";
-	width: 100%;
-}
-.left-float,
-.right-float{	
-	margin: 20px 0;
-}
-.right-float{
-	float:right;	
-}
-.left-float{
-	float:left;
+	.contact{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.contact h3{
+		margin-top:0;
+		padding-top: 30px;
+	}
+	.contact span{
+		font-weight: bold;
+	}
+	.space {
+		margin-top:20px;
+	}
 
-}
-.hiden{
-	display: none;    
-    text-transform: uppercase;    
-}
-.right-float a{
-	display: block;
-	color: #7f7f7f;
-}
+/* Styles for Footer */
+
+	.background{
+		background: #fafafa;
+	}
+
+	.foot-nav{
+		margin-top:40px;
+		border-top:1px solid #d3d3d3;
+		font-family: 'Do Hyeon', sans-serif;
+		display: table;
+		clear: both;
+		content: "";
+		width: 100%;
+	}
+	.left-float,
+	.right-float{	
+		margin: 20px 0;
+	}
+	.right-float{
+		float:right;	
+	}
+	.left-float{
+		float:left;
+	}
+	.hidden{
+		display: none;    
+	    text-transform: uppercase;    
+	}
+	.right-float a{
+		display: block;
+		color: #7f7f7f;
+	}
+	.skills img{
+		margin-top: 0;
+	}
 
 
 /* Styles for larger screens */
@@ -145,14 +165,13 @@ h3{
 @media (min-width: 768px){
 
 	/* Section Styles for Navigation*/
-	
+	.nav-bar a{
+		padding: 0 15px;
+
+	}
 	.nav-bar li{
-		float: left;	
-		margin-right: 25px;
-	}
-	.nav-bar li:last-child{
-	margin: 0;
-	}
+		float: left;
+	}	
 	.nav-bar a{		
 		background: inherit;
 	}
@@ -181,6 +200,7 @@ h3{
 	}
 
 	/* Section Styles for Card*/
+
 	.card{
 		width:48%;		
 	}
@@ -190,7 +210,21 @@ h3{
 		justify-content: space-between;
 
 	}
+	.card.skills{
+		width:70%;
+		margin:auto;
+	}
+	.clear{
+		display: none;
+	}
+	.hidden{
+		display: inline-block;
+		text-transform: uppercase;
+		margin-left: 15px;
+	}
+	
 }
+
 @media (min-width: 1024px){
 	.card{
 		width:32%;		
