@@ -12,7 +12,7 @@ body{
 		
 	background: #fff;
 }
-
+.background,
 header{
 	background: #fafafa;
 	background: linear-gradient(to right, #8eded9, #edbf4d,#3c9fbd);
@@ -55,7 +55,7 @@ header{
 	}
 
 /* Section Styles for Photo*/
-
+	
 	header{
 		padding-bottom: 50px;
 	}
@@ -124,9 +124,9 @@ header{
 
 /* Styles for Footer */
 
-	.background{
+	/*.background{
 		background: #fafafa;
-	}
+	}*/
 
 	.foot-nav{
 		margin-top:40px;
@@ -158,9 +158,16 @@ header{
 	.skills img{
 		margin-top: 0;
 	}
+	.contact h3,
+	.contact .text,
+	.right-float a,
+	.left-float{
+		color:#675a85;
+	}
 
 
-/* Styles for larger screens */
+
+	/* Styles for larger screens */
 
 @media (min-width: 768px){
 
