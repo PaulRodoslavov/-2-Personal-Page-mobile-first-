@@ -52,6 +52,7 @@ header{
 		text-align: center;
 		width:90%;
 		margin: 0 auto;
+		max-width: 1024px;
 	}
 
 /* Section Styles for Photo*/
@@ -68,6 +69,10 @@ header{
 	}
 
 /* Section Styles for card*/
+	
+	#portfolio{
+		margin-bottom: 0;
+	}
 
 	.card img {
 		width:100%;
